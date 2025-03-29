@@ -10,6 +10,7 @@ if [[ -z ${ANDROID_NDK_ROOT} ]]; then
   exit 1
 fi
 
+
 # LOAD INITIAL SETTINGS
 export BASEDIR="$(pwd)"
 export FFMPEG_KIT_BUILD_TYPE="android"
